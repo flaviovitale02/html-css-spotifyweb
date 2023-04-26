@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+}
+
+header{
+    width: 200px;
+    height: calc(100vh - 100px);
+    background-color: rgb(255, 153, 0);
+}
+
+main{
+    width: calc(100% - 200px);
+    height: calc(100vh - 100px);
+    background-color: blueviolet;
+}
+
+footer{
+    width: 100vw;
+    height: 100px;
+    background-color: brown;
+}
+
+header div img{
+    width: 60%;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.center{
+    justify-content: center;
+}
+
+li{
+    list-style-type: none;
+}
