@@ -27,6 +27,7 @@ main{
     width: calc(100% - 200px);
     height: calc(100vh - 100px);
     background-color: #141922;
+    overflow: auto;
 }
 
 footer{
@@ -93,7 +94,6 @@ a{
 .main-container{
     width: 98%;
     margin: auto;
-    overflow: scroll;
 }
 
 section.main-container div h1{
@@ -125,4 +125,14 @@ section.main-container div h1{
     .main-container{
         width: 99%;
     }
+}
+
+h2{
+    font-size: 0.8rem;
+    margin: 6%;
+}
+
+p{
+    margin-bottom: 5%;
+    opacity: 50%;
 }
