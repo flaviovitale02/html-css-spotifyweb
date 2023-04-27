@@ -6,6 +6,16 @@
 .flex{
     display: flex;
 }
+.wrap{
+    flex-wrap: wrap;
+}
+
+body{
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+}
 
 header{
     width: 200px;
@@ -16,26 +26,66 @@ header{
 main{
     width: calc(100% - 200px);
     height: calc(100vh - 100px);
-    background-color: blueviolet;
+    background-color: #141922;
 }
 
 footer{
     width: 100vw;
     height: 100px;
     background-color: brown;
+    
 }
 
 header div img{
     width: 60%;
     margin-top: 15px;
-    margin-left: 20px;
     margin-bottom: 20px;
 }
 
-.center{
-    justify-content: center;
-}
+
 
 li{
     list-style-type: none;
+}
+
+.header-container{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.playlist-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bg-grey{
+    background-color: #080b12;
+    height: 12%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+section.bg-grey div a{
+    color: white;
+    background-color: #080b12;
+    border-radius: 25px;
+    border: 2px solid white;
+    text-decoration: none;
+    padding: 10px 50px;
+}
+
+nav ul.wrap{
+    justify-content: center;
+    margin-top: 1%;
+}
+nav ul.wrap li{
+    padding-inline: 1%;
+}
+
+a{
+    color:white;
+    text-decoration: none;
 }
