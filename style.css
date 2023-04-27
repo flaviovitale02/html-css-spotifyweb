@@ -33,7 +33,7 @@ footer{
     width: 100vw;
     height: 100px;
     background-color: brown;
-    
+    position: absolute;
 }
 
 header div img{
@@ -88,4 +88,41 @@ nav ul.wrap li{
 a{
     color:white;
     text-decoration: none;
+}
+
+.main-container{
+    width: 98%;
+    margin: auto;
+    overflow: scroll;
+}
+
+section.main-container div h1{
+    margin-top: 1.8rem;
+    margin-bottom: 1.3rem;
+}
+
+.disk-container{
+    width: calc(100% / 6 - 1rem);
+    text-align: center;
+    margin-right: 1rem;
+}
+.disk-container img{
+    width: 100%;
+}
+
+@media screen and (max-width:768px) {
+    .disk-container{
+        width: calc(100% / 4 - 1rem);
+    }
+}
+
+@media screen and (max-width:576px) {
+    .disk-container{
+        width: calc(100% / 2 - 1rem);
+    }
+}
+@media screen and (max-width:450px) {
+    .main-container{
+        width: 99%;
+    }
 }
