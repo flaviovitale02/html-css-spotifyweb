@@ -20,7 +20,7 @@ body{
 header{
     width: 200px;
     height: calc(100vh - 100px);
-    background-color: rgb(255, 153, 0);
+    background-color: #000000;
 }
 
 main{
@@ -43,7 +43,9 @@ header div img{
     margin-bottom: 20px;
 }
 
-
+.opacity{
+    opacity: 50%;
+}
 
 li{
     list-style-type: none;
@@ -56,17 +58,40 @@ li{
     justify-content: space-between;
 }
 
+.margin-toppissimo{
+    margin-top: 100%;
+}
+
+.padding-bottom{
+    padding-bottom: 0.5rem;
+}
+.padding-top{
+    padding-top: 0.5rem;
+}
 .playlist-container{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
-
+.he-header{
+    color: #272727;
+}
 .bg-grey{
     background-color: #080b12;
     height: 12%;
     justify-content: flex-end;
     align-items: center;
+}
+
+.plus{
+    font-size: 1.2rem;
+    color:#000000;
+    background-color: #a3a3a3;
+    padding: 3%;
+}
+
+
+div.playlist-container div ul li{
+    padding-top: 0.5rem;
 }
 
 section.bg-grey div a{
@@ -135,4 +160,17 @@ h2{
 p{
     margin-bottom: 5%;
     opacity: 50%;
+}
+
+
+.green-left:hover{
+    opacity: 100%;
+    border-left: 3px solid #a9f62d;
+    padding-left: 5%;
+    margin-left: -5%;
+}
+
+.green-down:hover{
+    opacity: 100%;
+    border-bottom: 2px solid #a9f62d;
 }
